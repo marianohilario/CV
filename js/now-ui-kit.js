@@ -242,7 +242,7 @@ let english = document.getElementById("en")
 english.addEventListener('click', idiomaEn)
 
 function idiomaEn(){
-    location.href="indexenglish.html"
+    location.href="indexEnglish.html"
 }
 
 let spanish = document.getElementById("es")
