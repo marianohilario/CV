@@ -235,19 +235,3 @@ function debounce(func, wait, immediate) {
         if (immediate && !timeout) func.apply(context, args);
     };
 };
-
-
-
-let english = document.getElementById("en")
-english.addEventListener('click', idiomaEn)
-
-function idiomaEn(){
-    location.href="index.english.html"
-}
-
-let spanish = document.getElementById("es")
-spanish.addEventListener('click', idiomaEs)
-
-function idiomaEs(){
-    location.href="index.html"
-}
